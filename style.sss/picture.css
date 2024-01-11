@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.new-arivals{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: ;
+    flex-direction: column;
+   
+}
+.contain{
+    
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    background-color: ;
+}
+.car{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   flex-direction:row ;
+   
+}
+.card-img {
+   
+   display: flex;
+   flex-shrink: inherit;
+   margin-left:1% ;
+   flex-direction: column;
+   justify-content: center;
+   width: 80%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #F0F0F0;
+  
+  
+}
+.card-img img{
+    margin-left:  5%;
+    margin-top: 10px;
+    width: 90%;
+    border-radius: 10px;
+    height: 200px;
+    transition: 1s;
+    object-fit: cover;
+}
+.card-details{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.arrow{
+    margin-right: 20px;
+    font-size: 20px;
+    transition: 1s;
+}
+.para{
+    margin-left: 10px;
+    font-size: larger;
+}
+.card-img:hover img{
+    transform: scale(1.1);
+}
+.card-img:hover .arrow{
+    font-size: 30px;
+}
+.cent{
+    width: 100%;
+    margin-top: 20px;
+    height: 200px;
+    display: lex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+    background-image: url(/style.sss/promotion-girl.png);
+}
+.detail{
+    width: 100%;
+    height: 200px;
+   display: flex;
+  
+   flex-direction: column;
+   justify-content: flex-start;
+    background:rgba(38, 73, 73, 0.5); 
+    position: absolut;
+}
+.detail h1 {
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #F0F0F0;
+    font-size: 30px;
+}
+.detail h3{
+    margin-top: 10px;
+    margin-left: 50px;
+    color: #F0F0F0;
+}
+.detail p{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    color: #F0F0F0;
+}
+.detail button{
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #113E21;
+   margin-top: 20px;
+   margin-left: 70px;
+}
+.download{
+    position: relative;
+    margin-top: 20px;
+    padding: 0px 5px 0px 5px ;
+}
+.images{
+    display: flex;
+    padding-left: 20px;
+    margin-top: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+.images img{
+    width: 45%;
+}
+@media  only screen and (min-width:764px) {
+    .card-img {
+   
+        display: flex;
+        flex-grow: inherit;
+        margin-left: ;
+        flex-direction: colum;
+        justify-content: cente;
+        width: 150%;
+         height: 300px;
+         border-radius: 10px;
+         background-color: #f0f0f0;
+       
+       
+     }
+     .contain{
+        width: 20%;
+     }
+     .car{
+        display:inline-flex ;
+        flex-direction: row;
+        flex-grow: inherit;
+        justify-content: cente;
+     }
+     .new-arivals{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    .cent{
+        display: flex;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .detail{
+        width: 50%;
+        justify-content: center;
+    }
+}
